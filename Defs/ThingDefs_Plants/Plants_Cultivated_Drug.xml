@@ -29,7 +29,8 @@
       <harvestedThingDef>RawRimFlower</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
       <harvestYield>6</harvestYield>
-      <sowMinSkill>8</sowMinSkill>
+      <!-- DISABLED FOR TESTING PURPOSES
+      <sowMinSkill>8</sowMinSkill> -->
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -47,6 +48,6 @@
     </plant>
   </ThingDef>
 
-  
+
 </Plants>
 
