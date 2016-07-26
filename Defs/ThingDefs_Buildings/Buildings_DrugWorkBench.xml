@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Buildings>
+
+  <!--=========================== Drug Buildings ==============================-->
+
+  <!--=========================== NAMES AND TEXTURES ARE PLACEHOLDERS ==============================-->
+
+  <ThingDef ParentName="BenchBase">
+    <defName>DrugLab</defName>
+    <label>Drug Lab</label>
+    <ThingClass>Building_WorkTable_HeatPush</ThingClass>
+    <Description>An electrically-powered Drug Lab to create artificial drugs</Description>
+    <size>(5,2)</size>
+    <graphicData>
+      <texPath>Things/Building/Production/ResearchBenchHiTech</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(7,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <constructEffect>ConstructMetal</constructEffect>
+    <CostList>
+      <Steel>200</Steel>
+      <Component>50</Component>
+    </CostList>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>2.0</Flammability>
+    </statBases>
+    
+    <DesignationCategory>Production</DesignationCategory>
+    <Passability>PassThroughOnly</Passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>CookMealSimple</li>
+      <li>CookMealFine</li>
+      <li>CookMealLavish</li>
+      <li>MakePemmican</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <designationHotKey>Misc8</designationHotKey>
+    <researchPrerequisites>
+      <li>Electricity</li>
+      <li>DrugManufacturing</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+</Buildings>

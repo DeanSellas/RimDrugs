@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============================== DRUG RESEARCH ===================================-->
+
+  <ResearchProjectDef>
+    <defName>DrugManufacturing</defName>
+    <label>Drug Manufacturing</label>
+    <description>Allows you to start manufacturing illegal drugs</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+  
+</Defs>
