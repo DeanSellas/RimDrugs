@@ -8,7 +8,7 @@
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>RawRimFlower</defName>
     <label>rimflower</label>
-    <description>harvested rimflower, can be made into a narcotic</description>
+    <description>harvested rimflower, can be made into a psychedelic drug</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
@@ -16,7 +16,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>4.5</MarketValue>
+      <MarketValue>6.5</MarketValue>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>

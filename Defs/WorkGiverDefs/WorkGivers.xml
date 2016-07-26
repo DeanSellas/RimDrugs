@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+  
+  <WorkGiverDef>
+    <defName>DoManufactureDrug</defName>
+    <label>Manufacture Drugs</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>95</priorityInType>
+    <fixedBillGiverDefs>
+      <li>DrugLab</li>
+    </fixedBillGiverDefs>
+    <verb>brew</verb>
+    <gerund>brewing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</WorkGivers>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!--=========================== Drug Recipes ==============================-->
+
+  <!--=========================== NAMES AND TEXTURES ARE PLACEHOLDERS ==============================-->
+
+  <RecipeDef>
+    <defName>PsychedelicDrug</defName>
+    <label>Psychedelic Drug</label>
+    <description>Make psychedelic drugs</description>
+    <jobString>Creating Drugs.</jobString>
+    <workSpeedStat>BrewingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRimFlower</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawRimFlower</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MealFine>1</MealFine>
+    </products>
+    <!-- DISABLED FOR TESTING PURPOSES
+    <skillRequirements>
+      <li>
+        <skill>Research</skill>
+        <minLevel>7</minLevel>
+      </li>
+      <li>
+        <skill>Cooking</skill>
+        <minLevel>6</minLevel>
+      </li>
+    </skillRequirements> -->
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+</Defs>

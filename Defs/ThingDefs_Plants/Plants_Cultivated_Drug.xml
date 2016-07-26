@@ -8,7 +8,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>RimFlower</defName>
     <label>rim flower</label>
-    <description>bright colored plant that can be used to create narcotics</description>
+    <description>bright colored plant that can be used to create psychedelic drugs</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>.5</Beauty>
@@ -28,7 +28,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawRimFlower</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
-      <harvestYield>6</harvestYield>
+      <harvestYield>3</harvestYield>
       <!-- DISABLED FOR TESTING PURPOSES
       <sowMinSkill>8</sowMinSkill> -->
       <sowTags>
@@ -36,7 +36,7 @@
         <li>Hydroponic</li>
       </sowTags>
       <sowResearchPrerequisites>
-        <li>DrugManufacturing</li>
+        <li>DrugCultivating</li>
       </sowResearchPrerequisites>
       <topWindExposure>0.1</topWindExposure>
       <growDays>4.5</growDays>

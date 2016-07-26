@@ -4,12 +4,24 @@
   <!--=============================== DRUG RESEARCH ===================================-->
 
   <ResearchProjectDef>
+    <defName>DrugCultivating</defName>
+    <label>Drug Cultivating</label>
+    <description>Allows you to start farming illegal drugs</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>DrugManufacturing</defName>
     <label>Drug Manufacturing</label>
     <description>Allows you to start manufacturing illegal drugs</description>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>DrugCultivating</li>
+    </prerequisites>
   </ResearchProjectDef>
   
 </Defs>
