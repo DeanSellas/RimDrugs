@@ -4,22 +4,33 @@ A mod that adds drugs to RimWorld.
 ## ADDS
 
 ### Research
+
 * Drug Cultivating
 * Drug Manufacturing
 
+===
 ### Drugs
 
-##### Plants
+
+#### Plants
 * RimFlower
  * Used to create RimPowder
 
-##### Processed
+#### Processed
 * RimPowder
  * Stimulant
 
+===
+### Recipes
+
+* RimPowder
+ * 25 Rimflower makes 1 RimPowder.
+
+=== 
 ### Buildings
+
 * Drug Lab
- * 25 Rimflower to make 1 RimPowder.
+ * Used to create processed drugs.
 
 ## PLANNED FEATURES
 * More Drugs and Drug Types.
