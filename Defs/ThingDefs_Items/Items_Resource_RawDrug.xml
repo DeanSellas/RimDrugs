@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--=========================== Drug Raw ==============================-->
+  <!-- =========================== Drug Raw ============================== -->
 
-  <!--=========================== NAMES AND TEXTURES ARE PLACEHOLDERS ==============================-->
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>RawRimFlower</defName>
     <label>rimflower</label>
-    <description>harvested rimflower, can be made into a psychedelic drug</description>
+    <description>Harvested RimFlower, can be made into a RimPowder with a Drug Lab.</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Plants>
 
-  <!--=========================== Drug Plants ==============================-->
+  <!-- =========================== Drug Plants ============================== -->
 
-  <!--=========================== NAMES AND TEXTURES ARE PLACEHOLDERS ==============================-->
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
   <ThingDef ParentName="PlantBase">
     <defName>RimFlower</defName>
     <label>rim flower</label>
-    <description>bright colored plant that can be used to create psychedelic drugs</description>
+    <description>A bright colored plant that can be harvested and turned into a stimulant drug.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>.5</Beauty>

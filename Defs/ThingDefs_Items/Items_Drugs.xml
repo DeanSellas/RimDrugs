@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- =========================== Drug Buildings ============================== -->
+
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
+
+
+<ThingDef ParentName="MealBase">
+    <defName>RimPowder</defName>
+    <label>RimPowder</label>
+    <description>Stimulant Drug that is in a powder form</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/RimPowder</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-150</equippedAngleOffset>
+    <rotatable>false</rotatable>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <DeteriorationRate>0</DeteriorationRate>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Processed</foodType>
+      <nutrition>0.08</nutrition>
+      <joy>0.17</joy>
+      <joyKind>Chemical</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <soundEat>Meal_Eat</soundEat>
+      <isPleasureDrug>true</isPleasureDrug>
+      <hediffGivers>
+        <li>
+          <chance>1</chance>
+          <hediffDef>Alcohol</hediffDef>
+        </li>
+      </hediffGivers>
+    </ingestible>
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+
+
+</Defs>

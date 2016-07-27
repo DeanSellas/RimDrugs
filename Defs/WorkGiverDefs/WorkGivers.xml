@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <WorkGivers>
+
+  <!-- =========================== Drug Work ============================== -->
+
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
   
   <WorkGiverDef>
     <defName>DoManufactureDrug</defName>

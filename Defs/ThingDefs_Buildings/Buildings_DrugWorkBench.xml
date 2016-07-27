@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Buildings>
 
-  <!--=========================== Drug Buildings ==============================-->
+  <!-- =========================== Drug Buildings ============================== -->
 
-  <!--=========================== NAMES AND TEXTURES ARE PLACEHOLDERS ==============================-->
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
 
 <ThingDef ParentName="BenchBase">
     <defName>DrugLab</defName>
     <label>Drug Lab</label>
     <ThingClass>Building_WorkTable_HeatPush</ThingClass>
-    <Description>An electrically-powered Drug Lab to create artificial drugs</Description>
-    
+    <Description>An electrically-powered Drug Lab that can be used to create drugs</Description>
     <graphicData>
       <texPath>Things/Building/Production/ResearchBenchHiTech</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -45,7 +44,7 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <recipes>
-      <li>PsychedelicDrug</li>
+      <li>MakeRimPowder</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

@@ -2,14 +2,14 @@
 <Defs>
 
 
-  <!--=========================== Drug Recipes ==============================-->
+  <!-- =========================== Drug Recipes ============================== -->
 
-  <!--=========================== NAMES AND TEXTURES ARE PLACEHOLDERS ==============================-->
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
   <RecipeDef>
-    <defName>PsychedelicDrug</defName>
-    <label>Psychedelic Drug</label>
-    <description>Make psychedelic drugs</description>
+    <defName>MakeRimPowder</defName>
+    <label>RimPowder</label>
+    <description>Make Rimpowder</description>
     <jobString>Creating Drugs.</jobString>
     <workSpeedStat>BrewingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -33,7 +33,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <MealFine>1</MealFine>
+      <RimPowder>1</RimPowder>
     </products>
     <!-- DISABLED FOR TESTING PURPOSES
     <skillRequirements>
