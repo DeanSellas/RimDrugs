@@ -9,7 +9,7 @@
   <RecipeDef>
     <defName>MakeRimPowder</defName>
     <label>RimPowder</label>
-    <description>Make Rimpowder</description>
+    <description>Process RimFlower into RimPowder. Requires a Min-Cooking skill of 8</description>
     <jobString>Creating Drugs.</jobString>
     <workSpeedStat>BrewingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -38,12 +38,8 @@
     <!-- DISABLED FOR TESTING PURPOSES
     <skillRequirements>
       <li>
-        <skill>Research</skill>
-        <minLevel>7</minLevel>
-      </li>
-      <li>
         <skill>Cooking</skill>
-        <minLevel>6</minLevel>
+        <minLevel>8</minLevel>
       </li>
     </skillRequirements> -->
     <workSkill>Cooking</workSkill>

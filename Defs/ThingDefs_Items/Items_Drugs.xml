@@ -5,7 +5,6 @@
 
   <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
-
 <ThingDef ParentName="MealBase">
     <defName>RimPowder</defName>
     <label>RimPowder</label>
@@ -33,7 +32,7 @@
       <hediffGivers>
         <li>
           <chance>1</chance>
-          <hediffDef>Alcohol</hediffDef>
+          <hediffDef>RimPowder</hediffDef>
         </li>
       </hediffGivers>
     </ingestible>

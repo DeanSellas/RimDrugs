@@ -8,7 +8,7 @@ A mod that adds drugs to RimWorld.
 * Drug Cultivating
 * Drug Manufacturing
 
-===
+=== 
 ### Drugs
 
 
@@ -20,7 +20,7 @@ A mod that adds drugs to RimWorld.
 * RimPowder
  * Stimulant
 
-===
+=== 
 ### Recipes
 
 * RimPowder
