@@ -23,22 +23,9 @@
     </comps>
       <stages>
         <li>
-          <minSeverity>0.13</minSeverity>
-          <label>tipsy</label>
-          <painFactor>0.8</painFactor>
-          <socialFightChanceFactor>2.5</socialFightChanceFactor>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <offset>-0.10</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.4</minSeverity>
+          <minSeverity>0.15</minSeverity>
           <label>High</label>
-          <painFactor>0.5</painFactor>
-          <socialFightChanceFactor>4.0</socialFightChanceFactor>
+          <painFactor>0.6</painFactor>
           <vomitMtbDays>0.75</vomitMtbDays>
           <tale>Drunk</tale>
             <capMods>
@@ -46,10 +33,14 @@
                 <capacity>Consciousness</capacity>
                 <offset>-0.35</offset>
               </li>
+              <li>
+                <capacity>Moving</capacity>
+                <offset>0.20</offset>
+              </li>
             </capMods>
         </li>
         <li>
-          <minSeverity>0.7</minSeverity>
+          <minSeverity>0.45</minSeverity>
           <label>Slightly Overdosed</label>
           <painFactor>0.3</painFactor>
           <socialFightChanceFactor>5.0</socialFightChanceFactor>
@@ -60,10 +51,14 @@
                 <capacity>Consciousness</capacity>
                 <offset>-0.60</offset>
               </li>
+              <li>
+                <capacity>Moving</capacity>
+                <offset>0.40</offset>
+              </li>
             </capMods>
         </li>
         <li>
-          <minSeverity>0.9</minSeverity>
+          <minSeverity>0.85</minSeverity>
           <label>Overdosed</label>
           <painFactor>0.1</painFactor>
             <capMods>
@@ -74,9 +69,8 @@
             </capMods>
         </li>
         <li>
-          <minSeverity>1</minSeverity>
+          <minSeverity>.97</minSeverity>
           <label>Dead</label>
-          <painFactor>0.0</painFactor>
             <capMods>
               <li>
                 <capacity>Consciousness</capacity>
