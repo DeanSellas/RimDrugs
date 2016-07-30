@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingCategoryDefs>
 
+  <!-- =========================== Drug Categories ============================== -->
+
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
   <ThingCategoryDef>
     <defName>Drug</defName>
@@ -11,11 +14,21 @@
   </ThingCategoryDef>
 
   <ThingCategoryDef>
+    <defName>DrugProcessed</defName>
+    <label>processed drugs</label>
+    <parent>Drug</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>Ui/Icons/ThingCategories/ResourcesRaw</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
     <defName>StimulantDrug</defName>
     <label>stimulant</label>
-    <parent>Drug</parent>
+    <parent>DrugProcessed</parent>
     <iconPath>Ui/Icons/ThingCategories/MeatRaw</iconPath>
   </ThingCategoryDef>
+
+
 
   <ThingCategoryDef>
     <defName>DrugRaw</defName>
@@ -24,6 +37,5 @@
     <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>Ui/Icons/ThingCategories/ResourcesRaw</iconPath>
   </ThingCategoryDef>
-
 
 </ThingCategoryDefs>

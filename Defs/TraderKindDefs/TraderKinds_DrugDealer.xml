@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DefPackage-TraderKindDef>
 
+  <!-- =========================== Drug Traders ============================== -->
+
+  <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
+
   <TraderKindDef>
     <defName>Orbital_DrugDealer</defName>
     <label>Drug Dealer</label>
