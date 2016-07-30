@@ -23,19 +23,7 @@
     </comps>
       <stages>
         <li>
-          <minSeverity>0.1</minSeverity>
-          <label>warm</label>
-          <painFactor>0.9</painFactor>
-          <socialFightChanceFactor>1.5</socialFightChanceFactor>
-            <capMods>
-              <li>
-                <capacity>Manipulation</capacity>
-                <offset>-0.02</offset>
-              </li>
-            </capMods>
-        </li>
-        <li>
-          <minSeverity>0.25</minSeverity>
+          <minSeverity>0.13</minSeverity>
           <label>tipsy</label>
           <painFactor>0.8</painFactor>
           <socialFightChanceFactor>2.5</socialFightChanceFactor>
@@ -48,7 +36,7 @@
         </li>
         <li>
           <minSeverity>0.4</minSeverity>
-          <label>drunk</label>
+          <label>High</label>
           <painFactor>0.5</painFactor>
           <socialFightChanceFactor>4.0</socialFightChanceFactor>
           <vomitMtbDays>0.75</vomitMtbDays>
@@ -62,7 +50,7 @@
         </li>
         <li>
           <minSeverity>0.7</minSeverity>
-          <label>hammered</label>
+          <label>Slightly Overdosed</label>
           <painFactor>0.3</painFactor>
           <socialFightChanceFactor>5.0</socialFightChanceFactor>
           <vomitMtbDays>0.2</vomitMtbDays>
@@ -76,7 +64,7 @@
         </li>
         <li>
           <minSeverity>0.9</minSeverity>
-          <label>blackout</label>
+          <label>Overdosed</label>
           <painFactor>0.1</painFactor>
             <capMods>
               <li>
