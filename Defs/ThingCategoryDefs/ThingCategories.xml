@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+
+  <ThingCategoryDef>
+    <defName>Drug</defName>
+    <label>drugs</label>
+    <parent>Resources</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>Ui/Icons/ThingCategories/FoodMeals</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>StimulantDrug</defName>
+    <label>stimulant</label>
+    <parent>Drug</parent>
+    <iconPath>Ui/Icons/ThingCategories/MeatRaw</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>DrugRaw</defName>
+    <label>raw drugs</label>
+    <parent>Drug</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>Ui/Icons/ThingCategories/ResourcesRaw</iconPath>
+  </ThingCategoryDef>
+
+
+</ThingCategoryDefs>

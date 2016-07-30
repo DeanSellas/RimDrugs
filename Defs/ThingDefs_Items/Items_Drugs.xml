@@ -8,7 +8,7 @@
 <ThingDef ParentName="MealBase">
     <defName>RimPowder</defName>
     <label>RimPowder</label>
-    <description>Stimulant Drug that is in a powder form</description>
+    <description>Stimulant Drug that is created from RimFlower</description>
     <graphicData>
       <texPath>Things/Item/Drug/RimPowder</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -20,6 +20,9 @@
       <DeteriorationRate>0</DeteriorationRate>
       <MarketValue>50</MarketValue>
     </statBases>
+    <thingCategories>
+      <li>StimulantDrug</li>
+    </thingCategories>
     <ingestible>
       <preferability>NeverForNutrition</preferability>
       <foodType>Processed</foodType>

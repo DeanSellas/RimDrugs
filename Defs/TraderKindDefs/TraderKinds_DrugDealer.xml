@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Orbital_DrugDealer</defName>
+    <label>Drug Dealer</label>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drug</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>0</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>DrugRaw</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>0</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+    </stockGenerators>
+  </TraderKindDef>
+
+</DefPackage-TraderKindDef>

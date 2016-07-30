@@ -19,7 +19,7 @@
       <MarketValue>6.5</MarketValue>
     </statBases>
     <thingCategories>
-      <li>ResourcesRaw</li>
+      <li>DrugRaw</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
