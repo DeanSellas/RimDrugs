@@ -18,7 +18,16 @@ A mod that adds drugs to RimWorld.
 
 #### Processed
 * RimPowder
- * Stimulant
+ * Movement Boost (variable by stage)
+
+#### Drug Types
+* Stimulant
+
+#### Stages
+* High
+* Slightly Overdosed
+* Overdosed
+* Dead
 
 === 
 ### Recipes

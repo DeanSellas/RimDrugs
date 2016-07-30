@@ -4,9 +4,29 @@
   <author>SpaceCoder</author>
   <url>http://thespacecoder.com</url>
   <description>
-    A mod that Adds Drugs to Rimworld
+    Description
+    ----------------------------
+    A mod that Adds Drugs to Rimworld.
 
-    V0.1
+    Drugs
+    ----------------------------
+    Drugs that colonists can create in game.
+    - RimPowder
+
+    Research
+    ----------------------------
+    Research that can be done by colonists in game.
+    - Drug Cultivating
+    - Drug Manufacturing
+
+    Version
+    ----------------------------
+    Alpha V0.1
+
+    Credits
+    ----------------------------
+    Creator - TheSpaceCoder
+    Special thanks to all the people who tested the mod
   </description>
   <targetVersion>0.14.1241</targetVersion>
 </ModMetaData>
