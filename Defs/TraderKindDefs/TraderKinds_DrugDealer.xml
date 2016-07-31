@@ -5,10 +5,97 @@
 
   <!-- =========================== NAMES AND TEXTURES ARE PLACEHOLDERS ============================== -->
 
+  <!-- ORBITAL TRADERS -->
+
   <TraderKindDef>
     <defName>Orbital_DrugDealer</defName>
-    <label>Drug Dealer</label>
+    <label>drug dealer</label>
     <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>4000</min>
+          <max>6000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drug</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>1500</min>
+          <max>3000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>DrugRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>1500</min>
+          <max>3000</max>
+        </totalPriceRange>
+      </li>
+      </li>
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+    </stockGenerators>
+  </TraderKindDef>
+
+
+<!-- TRADE CARAVAN -->
+
+<TraderKindDef>
+    <defName>Caravan_DrugDealer</defName>
+    <label>drug dealer</label>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>1200</min>
+          <max>2000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drug</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>200</min>
+          <max>1000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>DrugRaw</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <price>Cheap</price>
+        <totalPriceRange>
+          <min>150</min>
+          <max>320</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+    </stockGenerators>
+  </TraderKindDef>
+
+
+<!-- VISITOR -->
+
+<TraderKindDef>
+    <defName>Visitor_DrugDealer</defName>
+    <label>drug dealer</label>
     <stockGenerators>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
@@ -20,8 +107,8 @@
       <li Class="StockGenerator_Category">
         <categoryDef>Drug</categoryDef>
         <thingDefCountRange>
-          <min>1</min>
-          <max>2</max>
+          <min>0</min>
+          <max>3</max>
         </thingDefCountRange>
         <countRange>
           <min>0</min>
@@ -29,18 +116,19 @@
         </countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>DrugRaw</categoryDef>
+        <thingDef>DrugRaw</thingDef>
         <thingDefCountRange>
-          <min>1</min>
-          <max>2</max>
+          <min>0</min>
+          <max>3</max>
         </thingDefCountRange>
         <countRange>
           <min>0</min>
-          <max>3</max>
+          <max>10</max>
         </countRange>
       </li>
       <li Class="StockGenerator_BuyWeirdOrganic" />
     </stockGenerators>
   </TraderKindDef>
+
 
 </DefPackage-TraderKindDef>
