@@ -41,11 +41,19 @@ A mod that adds drugs to RimWorld.
 * Drug Lab
  * Used to create processed drugs.
 
+=== 
+### Traders
+* Drug Dealer
+ * Orbital
+ * Caravan
+ * Visitor
+
 ## PLANNED FEATURES
 * More Drugs and Drug Types.
 * Drug Traits (addiction, abuse, ect.)
 * Effects for Drugs (damage boost, damage resistant, pain resistance, ect.)
 * Mental States (binge, withdrawal, berserk, ect.)
+* More Fleshed out Traders
 
 ## NOTES
 TEXTURES AND NAMES ARE PLACEHOLDERS, THEY WILL BE CHANEGED LATER.
