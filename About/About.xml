@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+
   <name>RimDrugs</name>
-  <author>SpaceCoder</author>
-  <url>http://thespacecoder.com</url>
+  <author>The SpaceCoder</author>
+
+  <url>http://thespacecoder.com/mods/rimworld</url>
+
   <description>
     Description
     ----------------------------
@@ -25,8 +28,10 @@
 
     Credits
     ----------------------------
-    Creator - TheSpaceCoder
+    Creator - The SpaceCoder
     Special thanks to all the people who tested the mod
   </description>
+
   <targetVersion>0.14.1241</targetVersion>
+
 </ModMetaData>
