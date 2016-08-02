@@ -2,6 +2,7 @@ RIMDRUGS CHANGELOG
 =============================================
 
 CREATOR: THESPACECODER
+WEBSITE: http://thespacecoder.com/
 GIT REPO: https://github.com/TheSpaceCoder/RimDrugs
 SUPPORT: https://github.com/TheSpaceCoder/RimDrugs/issues
 LICENSE: MIT LICENSE
