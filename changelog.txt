@@ -7,6 +7,18 @@ GIT REPO: https://github.com/TheSpaceCoder/RimDrugs
 SUPPORT: https://github.com/TheSpaceCoder/RimDrugs/issues
 LICENSE: MIT LICENSE
 
+
+CURRENT VERSION
+---------------------------------------------
+CHANGED: RIMFLOWER PROPERTIES
+CHANGED: RIMPOWDER PROPERTIES
+
+FIXED: SMALL BUG WITH RIMPOWDER
+FIXED: SMALL BUG WITH RIMFLOWER
+FIXED: SMALL BUG WITH TRADERS
+
+
+
 ALPHA V0.1.2
 ---------------------------------------------
 ADDED: DRUGS CATEGORY

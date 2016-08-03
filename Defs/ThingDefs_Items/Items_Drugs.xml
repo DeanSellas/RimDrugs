@@ -39,7 +39,6 @@
         </li>
       </hediffGivers>
     </ingestible>
-    <equipmentType>Primary</equipmentType>
     <techLevel>Neolithic</techLevel>
   </ThingDef>
 

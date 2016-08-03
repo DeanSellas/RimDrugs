@@ -16,6 +16,14 @@
     Drugs that colonists can create in game.
     - RimPowder
 
+    Effect Stages
+    ----------------------------
+    Stages that colonists go through when they take drugs, the effects progress by stage.
+    - High (moderate effects)
+    - Slightly Overdosed (strong effects)
+    - Overdoesed (unconscious)
+    - Dead
+
     Research
     ----------------------------
     Research that can be done by colonists in game.

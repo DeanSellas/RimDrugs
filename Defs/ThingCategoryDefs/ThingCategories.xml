@@ -10,7 +10,7 @@
     <label>drugs</label>
     <parent>Resources</parent>
     <resourceReadoutRoot>true</resourceReadoutRoot>
-    <iconPath>Ui/Icons/ThingCategories/FoodMeals</iconPath>
+    <iconPath>Things/Item/Drug/RimPowder</iconPath>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
@@ -18,14 +18,14 @@
     <label>processed drugs</label>
     <parent>Drug</parent>
     <resourceReadoutRoot>true</resourceReadoutRoot>
-    <iconPath>Ui/Icons/ThingCategories/ResourcesRaw</iconPath>
+    <iconPath>Things/Item/Resource/PlantDrugRaw/RimFlower</iconPath>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
     <defName>StimulantDrug</defName>
     <label>stimulant</label>
     <parent>DrugProcessed</parent>
-    <iconPath>Ui/Icons/ThingCategories/MeatRaw</iconPath>
+    <iconPath>Things/Item/Drug/RimPowder</iconPath>
   </ThingCategoryDef>
 
 
@@ -35,7 +35,7 @@
     <label>raw drugs</label>
     <parent>Drug</parent>
     <resourceReadoutRoot>true</resourceReadoutRoot>
-    <iconPath>Ui/Icons/ThingCategories/ResourcesRaw</iconPath>
+    <iconPath>Things/Item/Resource/PlantDrugRaw/RimFlower</iconPath>
   </ThingCategoryDef>
 
 </ThingCategoryDefs>

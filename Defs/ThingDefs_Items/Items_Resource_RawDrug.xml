@@ -27,6 +27,23 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Plant</foodType>
+      <nutrition>0.05</nutrition>
+      <joy>0.1</joy>
+      <joyKind>Chemical</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <soundEat>Meal_Eat</soundEat>
+      <isPleasureDrug>true</isPleasureDrug>
+      <!-- WILL ADD EFFECTS LATER 
+      <hediffGivers>
+        <li>
+          <chance>.5</chance>
+          <hediffDef></hediffDef>
+        </li>
+      </hediffGivers> -->
+    </ingestible>
   </ThingDef>
 
 </Defs>

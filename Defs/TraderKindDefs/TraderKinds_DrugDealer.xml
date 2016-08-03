@@ -43,7 +43,6 @@
           <max>3000</max>
         </totalPriceRange>
       </li>
-      </li>
       <li Class="StockGenerator_BuyWeirdOrganic" />
     </stockGenerators>
   </TraderKindDef>
