@@ -8,7 +8,7 @@ SUPPORT: https://github.com/TheSpaceCoder/RimDrugs/issues
 LICENSE: MIT LICENSE
 
 
-CURRENT VERSION
+ALPHA V0.1.25
 ---------------------------------------------
 CHANGED: RIMFLOWER PROPERTIES
 CHANGED: RIMPOWDER PROPERTIES
