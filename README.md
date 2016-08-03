@@ -13,17 +13,21 @@ A mod that adds drugs to RimWorld.
 
 
 #### Plants
+
 * RimFlower
  * Used to create RimPowder
 
 #### Processed
+
 * RimPowder
  * Movement Boost (variable by stage)
 
 #### Drug Types
+
 * Stimulant
 
 #### Stages
+
 * High
 * Slightly Overdosed
 * Overdosed
@@ -43,12 +47,14 @@ A mod that adds drugs to RimWorld.
 
 === 
 ### Traders
+
 * Drug Dealer
  * Orbital
  * Caravan
  * Visitor
 
 ## PLANNED FEATURES
+
 * More Drugs and Drug Types.
 * Drug Traits (addiction, abuse, ect.)
 * Effects for Drugs (damage boost, damage resistant, pain resistance, ect.)
@@ -57,3 +63,8 @@ A mod that adds drugs to RimWorld.
 
 ## NOTES
 TEXTURES AND NAMES ARE PLACEHOLDERS, THEY WILL BE CHANEGED LATER.
+
+## CREDITS
+The SpaceCoder - Creator
+
+Special thanks to all the people who are helping test the mod.

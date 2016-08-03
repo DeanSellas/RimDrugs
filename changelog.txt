@@ -2,7 +2,7 @@ RIMDRUGS CHANGELOG
 =============================================
 
 CREATOR: THESPACECODER
-WEBSITE: http://thespacecoder.com/
+WEBSITE: http://thespacecoder.com/mods/rimworld
 GIT REPO: https://github.com/TheSpaceCoder/RimDrugs
 SUPPORT: https://github.com/TheSpaceCoder/RimDrugs/issues
 LICENSE: MIT LICENSE
@@ -16,6 +16,7 @@ CHANGED: RIMPOWDER PROPERTIES
 FIXED: SMALL BUG WITH RIMPOWDER
 FIXED: SMALL BUG WITH RIMFLOWER
 FIXED: SMALL BUG WITH TRADERS
+FIXED: SMALL BUG WITH THINGDEF ICONS
 
 
 

@@ -7,9 +7,10 @@
   <url>http://thespacecoder.com/mods/rimworld</url>
 
   <description>
+
     Description
     ----------------------------
-    A mod that Adds Drugs to Rimworld.
+    A mod that adds drugs to Rimworld.
 
     Drugs
     ----------------------------
@@ -38,6 +39,7 @@
     ----------------------------
     Creator - The SpaceCoder
     Special thanks to all the people who tested the mod
+
   </description>
 
   <targetVersion>0.14.1241</targetVersion>
