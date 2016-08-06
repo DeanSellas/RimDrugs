@@ -13,7 +13,6 @@
       <texPath>Things/Item/Drug/RimPowder</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
-    <equippedAngleOffset>-150</equippedAngleOffset>
     <rotatable>false</rotatable>
     <stackLimit>10</stackLimit>
     <statBases>
@@ -40,6 +39,30 @@
       </hediffGivers>
     </ingestible>
     <techLevel>Neolithic</techLevel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Morphine</defName>
+    <label>morphine</label>
+    <description>Painkiller that can be used for medical or recreational purposes</description>
+    <thingClass>Medicine</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>18</MarketValue>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>1.0</MedicalPotency>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Medicine</li>
+    </thingCategories>
   </ThingDef>
 
 

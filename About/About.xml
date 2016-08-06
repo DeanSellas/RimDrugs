@@ -12,6 +12,9 @@
     ----------------------------
     A mod that adds drugs to Rimworld.
 
+    Currently most items textures and names are placeholders, they will be changed later
+    in development.
+
     Drugs
     ----------------------------
     Drugs that colonists can create in game.
@@ -42,6 +45,6 @@
 
   </description>
 
-  <targetVersion>0.14.1241</targetVersion>
+  <targetVersion>0.14.1249</targetVersion>
 
 </ModMetaData>
