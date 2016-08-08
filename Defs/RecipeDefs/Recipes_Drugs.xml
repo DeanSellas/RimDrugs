@@ -10,7 +10,7 @@
     <defName>MakeRimPowder</defName>
     <label>RimPowder</label>
     <description>Process RimFlower into RimPowder. Requires a Min-Cooking skill of 8</description>
-    <jobString>Creating Drugs.</jobString>
+    <jobString>Making RimPowder.</jobString>
     <workSpeedStat>BrewingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Brewing</soundWorking>
@@ -43,6 +43,47 @@
       </li>
     </skillRequirements> -->
     <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>MakeMorphine</defName>
+    <label>Morphine</label>
+    <description>Process Poppy into Morphine. Requires a Min-Cooking skill of 9</description>
+    <jobString>Making Morphine.</jobString>
+    <workSpeedStat>BrewingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1250</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PoppySeed</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PoppySeed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Morphine>1</Morphine>
+    </products>
+    <!-- DISABLED FOR TESTING PURPOSES
+    <skillRequirements>
+      <li>
+        <skill>Cooking</skill>
+        <minLevel>9</minLevel>
+      </li>
+    </skillRequirements> -->
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>MedicalDrugs</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

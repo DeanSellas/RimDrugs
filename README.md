@@ -7,6 +7,7 @@ A mod that adds drugs to RimWorld.
 
 * Drug Cultivating
 * Drug Manufacturing
+* Medical Drugs
 
 === 
 ### Drugs
@@ -17,10 +18,16 @@ A mod that adds drugs to RimWorld.
 * RimFlower
  * Used to create RimPowder
 
+* Opium
+ * Used to create Morphine
+
 #### Processed
 
 * RimPowder
  * Movement Boost (variable by stage)
+
+* Morphine
+ * Medicine
 
 #### Drug Types
 
@@ -39,10 +46,13 @@ A mod that adds drugs to RimWorld.
 * RimPowder
  * 25 Rimflower makes 1 RimPowder.
 
+* Morphine
+ * 30 PoppySeeds makes 1 Morphine.
+
 === 
 ### Buildings
 
-* Drug Lab
+* Chemistry Lab
  * Used to create processed drugs.
 
 === 

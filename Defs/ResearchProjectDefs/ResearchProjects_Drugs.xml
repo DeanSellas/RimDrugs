@@ -15,6 +15,18 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
+    <defName>MedicalDrugs</defName>
+    <label>Medical Drugs</label>
+    <description>Allows you to start manufacturing drugs for medical purposes</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>DrugManufacturing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>DrugManufacturing</defName>
     <label>Drug Manufacturing</label>
     <description>Allows you to start manufacturing illegal drugs</description>

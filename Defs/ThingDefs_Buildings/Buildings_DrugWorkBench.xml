@@ -7,10 +7,10 @@
 
 
 <ThingDef ParentName="BenchBase">
-    <defName>DrugLab</defName>
-    <label>Drug Lab</label>
+    <defName>ChemLab</defName>
+    <label>Chemistry Lab</label>
     <ThingClass>Building_WorkTable_HeatPush</ThingClass>
-    <Description>An electrically-powered Drug Lab that can be used to create drugs</Description>
+    <Description>An electrically-powered Chemistry Lab that can be used to create drugs</Description>
     <graphicData>
       <texPath>Things/Building/Production/ResearchBenchHiTech</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -45,6 +45,7 @@
     <surfaceType>Item</surfaceType>
     <recipes>
       <li>MakeRimPowder</li>
+      <li>MakeMorphine</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

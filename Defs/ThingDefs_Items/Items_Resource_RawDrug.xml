@@ -8,12 +8,12 @@
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>RawRimFlower</defName>
     <label>rimflower</label>
-    <description>Harvested RimFlower, can be made into a RimPowder with a Drug Lab.</description>
+    <description>Harvested RimFlower, can be made into a RimPowder at the Chemistry Lab.</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
-      <texPath>Things/Item/Resource/PlantDrugRaw/RimFlower</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Item/Resource/PlantDrugRaw/RimFlowerRaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>6.5</MarketValue>
@@ -43,6 +43,39 @@
           <hediffDef></hediffDef>
         </li>
       </hediffGivers> -->
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>PoppySeed</defName>
+    <label>poopyseed</label>
+    <description>Harvested RimFlower, can be made into a RimPowder at the Chemistry Lab.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantDrugRaw/PoppySeed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>DrugRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Plant</foodType>
+      <nutrition>0.002</nutrition>
+      <joy>0.005</joy>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <soundEat>Meal_Eat</soundEat>
+      <isPleasureDrug>true</isPleasureDrug>
     </ingestible>
   </ThingDef>
 

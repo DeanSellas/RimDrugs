@@ -7,6 +7,18 @@ GIT REPO: https://github.com/TheSpaceCoder/RimDrugs
 SUPPORT: https://github.com/TheSpaceCoder/RimDrugs/issues
 LICENSE: MIT LICENSE
 
+CURRENT VERSION
+---------------------------------------------
+ADDED: NEW RESEARCH, MEDICAL DRUGS
+ADDED: OPIUM PLANT
+ADDED: POPPYSEED
+ADDED: MORPHINE
+ADDED: MORPHINE RECIPE
+
+CHANGED: DRUG LAB TO CHEMISTRY LAB
+CHANGED: FOLDER LAYOUT
+
+
 
 ALPHA V0.1.25
 ---------------------------------------------

@@ -11,7 +11,7 @@
     <description>Stimulant Drug that is created from RimFlower</description>
     <graphicData>
       <texPath>Things/Item/Drug/RimPowder</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
     <stackLimit>10</stackLimit>
@@ -45,10 +45,10 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Morphine</defName>
     <label>morphine</label>
-    <description>Painkiller that can be used for medical or recreational purposes</description>
+    <description>Painkiller that can be used for medical purposes</description>
     <thingClass>Medicine</thingClass>
     <graphicData>
-      <texPath>Things/Item/Resource/Medicine</texPath>
+      <texPath>Things/Item/Resource/Medicine/Morphine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
@@ -57,7 +57,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <MarketValue>18</MarketValue>
       <Flammability>1.0</Flammability>
-      <MedicalPotency>1.0</MedicalPotency>
+      <MedicalPotency>0.9</MedicalPotency>
       <DeteriorationRate>2</DeteriorationRate>
     </statBases>
     <thingCategories>

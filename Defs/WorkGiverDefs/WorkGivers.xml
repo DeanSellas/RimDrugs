@@ -12,7 +12,7 @@
     <workType>Cooking</workType>
     <priorityInType>95</priorityInType>
     <fixedBillGiverDefs>
-      <li>DrugLab</li>
+      <li>ChemLab</li>
     </fixedBillGiverDefs>
     <verb>brew</verb>
     <gerund>brewing</gerund>
