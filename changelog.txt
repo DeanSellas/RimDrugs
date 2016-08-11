@@ -7,7 +7,7 @@ GIT REPO: https://github.com/TheSpaceCoder/RimDrugs
 SUPPORT: https://github.com/TheSpaceCoder/RimDrugs/issues
 LICENSE: MIT LICENSE
 
-CURRENT VERSION
+ALPHA V0.1.3
 ---------------------------------------------
 ADDED: NEW RESEARCH, MEDICAL DRUGS
 ADDED: OPIUM PLANT
